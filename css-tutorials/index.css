@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    opacity: 100;
+}
+#hh1 {
+    color: red;
+}
+
+.main-div p {
+    color: blue;
+}
+
+/* this is used for select only nested element */
+#main-div1 p {
+    color: red;
+}
+
+#main-div1 h4 {
+    color: green;
+}
+
+#idfirst,
+#idsecond {
+    color: rgb(69, 8, 236);
+}
+
+#textdec1 {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#textdec2 {
+    text-decoration: overline;
+}
+
+#textdec3 {
+    text-decoration: line-through;
+    text-decoration-color: brown;
+}
+
+#textdec4 {
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+}
+
+#line-height-fontsize {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+#fontfamily {
+    font-family: 'Dancing Script';
+    color: blueviolet;
+    background-color: brown;
+    font-size: 25px;
+
+}
+
+#task1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
+
+.items-row {
+    padding: 2px;
+}
+.action-button{
+    padding-block: 2px;
+    font-size: 16px;
+    min-width: 72px;
+    border: 2px dotted #333;
+}
+.box1{
+    height: 200px;
+    width:200px;
+    background-color: blue;
+}
+.button11{
+    height: 100px;
+    width:100px;
+    padding: 10px 15px 10px 15px;
+    border: 2px dotted red;
+    border-radius: 50px;
+}
+.box2{
+    
+    height: 100px;
+    width:100px;
+    font-size: 30px;
+    background-color: blueviolet;
+    border: 20px;
+    box-sizing: content-box;
+}
+.box3{
+    
+    height: 150px;
+    width:150px;
+    background-color: burlywood;
+    font-size: 30px;
+    box-sizing: content-box;
+}
+#outer-div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    font-size: 30px
+}
+#inner-div{
+    height: 50%;
+    width: 100%;
+    font-size: 0.5em; /* This means dependatnt on parrent elements size */
+    /* But when we define the value with rem selector element would be dependatnt on root(body) elements size */
+    background-color: blue;
+}
+
+.inline{
+    /* display: inline; */
+    display: inline-block;
+    /* display: flex; */
+}
+#boxinline1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+#boxinline2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(233, 65, 23);
+}
+
+
+.triangle{
+    margin: 5px;
+}
+
+
+#triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid #3498db; /* Change the color as needed */
+}
+
+
+#triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 87px solid #3498db; /* Change the color as needed */
+}

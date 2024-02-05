@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #b7aaaaf5; 
+    /* Adjust the last value (0.5) for transparency */
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+
+nav a {
+    color: white; /* Set the text color */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 5px 10px;
+    font-size: 20px;
+}
+nav a:hover {
+    color: blue;
+}
+
+.boxs{
+    height: 50px;
+    width: 50px;
+}
+
+
+.nav-items{
+    display: inline;
+}
+#nav-last{
+    position: fixed !important;;
+    right: 5px;
+}
+
+#whatsap {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px; /* Adjust the margin for spacing */
+}
+
+#whatsap-icon {
+    /* Add any additional styles for your WhatsApp icon */
+    font-size: 40px; /* Adjust the font size as needed */
+    box-shadow: 0 0 10px rgba(172, 35, 35, 0.3); /* Add shadow effect */
+    height: 92px;
+    border-radius: 50px;
+    
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    background-color: #b7aaaaf5;
+    
+}
+
+
+#landing-profile-image{
+    width: 335px;
+    box-shadow: -6px -6px 4px #000000;
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+     /* Add shadow effect */
+}
+
+#home-about{
+    font-family: cursive;
+    font-size: 1em;
+    text-align: center;
+    padding: 55px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#box1{
+    
+    background-color: violet;
+}
+
+#box2 {
+    background-color: blue;
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+}
